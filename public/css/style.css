@@ -249,46 +249,6 @@ p {
   transition: transform 0.5s ease;
 }
 
-.cart-toggler {
-  height: 34px;
-  width: 44px;
-  margin-left: 820px;
-  margin-top: 5px;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.cart-toggler span {
-  height: 2px;
-  width: 30px;
-  display: block;
-  background-color: transparent;
-  position: relative;
-}
-
-.cart-toggler span::after,
-.cart-toggler span::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: var(--main-color);
-}
-
-.cart-toggler span::before {
-  transform: rotate(-45deg);
-}
-
-.cart-toggler span::after {
-  transform: rotate(45deg);
-}
-
 .header .nav {
   position: fixed;
   right: 0;
@@ -565,13 +525,54 @@ p {
 }
 
 .content-section {
-  background-color: red;
+  background-color: var(--dark-light);
+  border: 2px solid var(--main-color);
   width: calc(80%);
   position: fixed;
   align-self: center;
   border-radius: 15px;
   top: 130px;
   left: 120px;
+}
+
+.cart-toggler {
+  height: 34px;
+  width: 44px;
+  margin-left: 820px;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-toggler span {
+  height: 2px;
+  width: 30px;
+  display: block;
+  background-color: transparent;
+  position: relative;
+}
+
+.cart-toggler span::after,
+.cart-toggler span::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.cart-toggler span::before {
+  transform: rotate(-45deg);
+}
+
+.cart-toggler span::after {
+  transform: rotate(45deg);
 }
 
 .cart-row {
