@@ -10,9 +10,19 @@
   </head>
   <body>
     <header class="header">
-      <input type="text" id="inputUser" />
-      <input type="text" id="inputPass" />
-      <button id="buttonLogin">login</button>
+      <div class="center visually-hidden">
+        <h1>Login You</h1>
+        <h2>and your order come to you in 20min</h2>
+        <div class="txt_field">
+          <input type="text" id="inputUser" />
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" id="inputPass" />
+          <label>Password</label>
+        </div>
+        <button class="btn-login" id="buttonLogin">login</button>
+      </div>
       <div class="container">
         <div class="row .justify-content-between align-items-center">
           <div>
@@ -107,7 +117,7 @@
       </div>
     </section>
     <section class="menu-section sec-padding" id="our-menu">
-      <div class="container">
+      <div class="container container-menu">
         <div class="row">
           <div class="section-title">
             <h2 data-title="order-now">our menu</h2>
@@ -133,321 +143,10 @@
             </button>
           </div>
         </div>
-        <div class="row menu-tab-content active" id="maki">
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/hoso-maki.png"
-                alt="Hoso-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Hoso-Maki</h3>
-            </div>
-            <div class="menu-item-price">8.75€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/futo-maki.png"
-                alt="Futo-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Futo-Maki</h3>
-            </div>
-            <div class="menu-item-price">9.75€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/ura-maki.png"
-                alt="Ura-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Ura-Maki</h3>
-            </div>
-            <div class="menu-item-price">9.95€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/te-maki.png"
-                alt="Te-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Te-Maki</h3>
-            </div>
-            <div class="menu-item-price">10.25€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/gunkan-maki.png"
-                alt="Gunkan-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Gunkan-Maki</h3>
-            </div>
-            <div class="menu-item-price">10.25€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/hitsuji-maki.png"
-                alt="Hitsuji-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Hitsuji-Maki</h3>
-            </div>
-            <div class="menu-item-price">10.00€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/nigiri-maki.png"
-                alt="Nigiri-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Nigiri-Maki</h3>
-            </div>
-            <div class="menu-item-price">10.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/sashimi-maki.png"
-                alt="Sashimi-Maki"
-                width="120px"
-                height="120px"
-              />
-              <h3>Sashimi-Maki</h3>
-            </div>
-            <div class="menu-item-price">10.20€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-        </div>
-        <div class="row menu-tab-content" id="wok">
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/udong-ebi.png"
-                alt="Udong Ebi"
-                width="120px"
-                height="120px"
-              />
-              <h3>Udong Ebi</h3>
-            </div>
-            <div class="menu-item-price">9.90€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/udong-veggie.png"
-                alt="Udong Veggie"
-                width="120px"
-                height="120px"
-              />
-              <h3>Udong Veggie</h3>
-            </div>
-            <div class="menu-item-price">8.90€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/yaki-soba-chicken.png"
-                alt="Yaki Soba Chicken"
-                width="120px"
-                height="120px"
-              />
-              <h3>Yaki Soba Chicken</h3>
-            </div>
-            <div class="menu-item-price">8.90€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/yaki-soba-pork.png"
-                alt="Yaki Soba Pork"
-                width="120px"
-                height="120px"
-              />
-              <h3>Yaki Soba Pork</h3>
-            </div>
-            <div class="menu-item-price">8.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-        </div>
-        <div class="row menu-tab-content" id="drinks">
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/amazake.png"
-                alt="Amazake"
-                width="120px"
-                height="120px"
-              />
-              <h3>Amazake</h3>
-            </div>
-            <div class="menu-item-price">3.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/genmaicha.png"
-                alt="Genmaicha"
-                width="120px"
-                height="120px"
-              />
-              <h3>Genmaicha</h3>
-            </div>
-            <div class="menu-item-price">2.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img src="img/sake.png" alt="Sake" width="120px" height="120px" />
-              <h3>Sake</h3>
-            </div>
-            <div class="menu-item-price">2.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/green-tea.png"
-                alt="Green Tea"
-                width="120px"
-                height="120px"
-              />
-              <h3>Green Tea</h3>
-            </div>
-            <div class="menu-item-price">2.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/oolong-tea.png"
-                alt="Oolong Tea"
-                width="120px"
-                height="120px"
-              />
-              <h3>Oolong Tea</h3>
-            </div>
-            <div class="menu-item-price">2.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/mugicha.png"
-                alt="Mugicha Tea"
-                width="120px"
-                height="120px"
-              />
-              <h3>Mugicha Tea</h3>
-            </div>
-            <div class="menu-item-price">3.25€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-        </div>
-        <div class="row menu-tab-content" id="desserts">
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/banana-sushi.png"
-                alt="Banana Sushi"
-                width="120px"
-                height="120px"
-              />
-              <h3>Banan Sushi</h3>
-            </div>
-            <div class="menu-item-price">2.50€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/purin.png"
-                alt="Purin"
-                width="120px"
-                height="120px"
-              />
-              <h3>Purin</h3>
-            </div>
-            <div class="menu-item-price">2.20€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/coffe-jelly.png"
-                alt="Coffe Jelly"
-                width="120px"
-                height="120px"
-              />
-              <h3>Coffe Jelly</h3>
-            </div>
-            <div class="menu-item-price">2.00€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/rice-krispies.png"
-                alt="Rice Krispies"
-                width="120px"
-                height="120px"
-              />
-              <h3>Rice Krispies</h3>
-            </div>
-            <div class="menu-item-price">3.25€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/green-ice-cream.png"
-                alt="Green Ice-Cream"
-                width="120px"
-                height="120px"
-              />
-              <h3>Green Ice-Cream</h3>
-            </div>
-            <div class="menu-item-price">3.00€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-title">
-              <img
-                src="img/daifuku-mochi.png"
-                alt="Daifuku Mochi"
-                width="120px"
-                height="120px"
-              />
-              <h3>Daifuku Mochi</h3>
-            </div>
-            <div class="menu-item-price">2.25€</div>
-            <button class="btn-order" type="button">order</button>
-          </div>
-        </div>
+        <div class="row menu-tab-content active" id="maki"></div>
+        <div class="row menu-tab-content" id="wok"></div>
+        <div class="row menu-tab-content" id="drinks"></div>
+        <div class="row menu-tab-content" id="desserts"></div>
       </div>
     </section>
     <section class="team-section sec-padding" id="team">

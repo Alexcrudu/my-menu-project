@@ -663,3 +663,27 @@ p {
   display: block;
   margin: 40px auto 80px;
 }
+
+.center {
+  background-color: var(--dark-light);
+  padding: 100px;
+  border: 2px solid var(--main-color);
+  border-radius: 20px;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.txt_field {
+  margin: 15px;
+}
+
+.btn-login {
+  padding: 5px 10px;
+  background-color: var(--main-color);
+  border: 1px solid var(--white);
+  color: var(--white);
+  border-radius: 5px;
+}
